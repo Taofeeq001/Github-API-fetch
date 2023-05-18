@@ -1,0 +1,138 @@
+.body{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.family{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    
+}
+.family form{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: center;
+}
+form input{
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    /* border: 2px solid black; */
+    outline: none;
+}
+form button{
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    width: 10%;
+    font-weight: 600;
+}
+.mother{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    margin-top: 30px;
+}
+.error{
+    color: red;
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.left1{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.left2{
+    width: 100%;
+}
+.left1 .left-sub, .left1 .left-sub2{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    padding: 10px 15px;
+    gap: 20px;
+    align-items: center;
+}
+
+.left2 .user-para{
+    background-color: aliceblue;
+    width: 10%;
+    padding-left: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.userDetails{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 25px;
+    height: 300px;
+}
+.det{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.det img{
+    height: 80px;
+}
+.right1{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.rightsub, .rightsub1{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rightsub img, .rightsub1 img{
+    height: 40px;
+}
+.right2 p{
+    background-color: aliceblue;
+    width: 12%;
+    padding-left: 10px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.follower{
+    width: 100%;
+    background-color: aliceblue;
+    height: 300px;
+    padding: 25px;
+    overflow: scroll;
+}
+.foll{
+    display: flex;
+}
+.follower img{
+    height: 100px;
+}
+a{
+    color: #2CAEBA;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    
+}
